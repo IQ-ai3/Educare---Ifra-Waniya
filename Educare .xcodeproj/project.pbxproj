@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7AE4223E2C45852500170C1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AE4223D2C45852500170C1A /* Assets.xcassets */; };
+		7AE422492C45868300170C1A /* UniversalPickerFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE422482C45868300170C1A /* UniversalPickerFile.swift */; };
+		7AE4224B2C4586C400170C1A /* LabelledPickerSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE4224A2C4586C400170C1A /* LabelledPickerSwiftUI.swift */; };
+		7AE422502C45871A00170C1A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE4224F2C45871A00170C1A /* ContentView.swift */; };
+		7AE422522C45874A00170C1A /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE422512C45874A00170C1A /* TabView.swift */; };
+		7AE422552C45878000170C1A /* PhotoPickerViewFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE422542C45878000170C1A /* PhotoPickerViewFile.swift */; };
+		7AE422582C4587D000170C1A /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE422572C4587D000170C1A /* PickerView.swift */; };
+		7AE4225A2C4587FE00170C1A /* PickerDataFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE422592C4587FE00170C1A /* PickerDataFile.swift */; };
+		7AE4225D2C458D1000170C1A /* Profile_Picker_pageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE4225C2C458D1000170C1A /* Profile_Picker_pageApp.swift */; };
+		7AE422612C458F4300170C1A /* GameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE422602C458F4300170C1A /* GameApp.swift */; };
+		7AE422642C458F9E00170C1A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE422632C458F9E00170C1A /* MainView.swift */; };
+		7AE422662C458FC400170C1A /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE422652C458FC400170C1A /* QuestionView.swift */; };
+		7AE422682C458FE700170C1A /* TriviaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE422672C458FE700170C1A /* TriviaView.swift */; };
+		7AE4226B2C45905800170C1A /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE4226A2C45905800170C1A /* PrimaryButton.swift */; };
+		7AE4226D2C45909100170C1A /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE4226C2C45909100170C1A /* ProgressBar.swift */; };
+		7AE4226F2C4590B600170C1A /* AnswerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE4226E2C4590B600170C1A /* AnswerRow.swift */; };
+		7AE422722C4590F700170C1A /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE422712C4590F700170C1A /* Answer.swift */; };
+		7AE422742C45910B00170C1A /* Trivia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE422732C45910B00170C1A /* Trivia.swift */; };
+		7AE422762C45918900170C1A /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE422752C45918900170C1A /* Extension.swift */; };
+		7AE422782C4591AE00170C1A /* TriviaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE422772C4591AE00170C1A /* TriviaManager.swift */; };
+		7AE4227E2C48289200170C1A /* SearchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE4227D2C48289200170C1A /* SearchApp.swift */; };
+		7AE422802C4828AA00170C1A /* MajorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE4227F2C4828AA00170C1A /* MajorView.swift */; };
+		7AE422822C4828BB00170C1A /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE422812C4828BB00170C1A /* SampleData.swift */; };
+		7AE422852C48B32600170C1A /* tracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE422842C48B32600170C1A /* tracker.swift */; };
+		7AE422892C48B3AD00170C1A /* app.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE422882C48B3AD00170C1A /* app.swift */; };
+		7AE422982C49285600170C1A /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 7AE422972C49285600170C1A /* FirebaseFirestore */; };
+		7AE4229A2C49285600170C1A /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7AE422992C49285600170C1A /* FirebaseFirestoreSwift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7AE422362C45851900170C1A /* Educare - Ifra & Waniya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Educare - Ifra & Waniya.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AE4223D2C45852500170C1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7AE422482C45868300170C1A /* UniversalPickerFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversalPickerFile.swift; sourceTree = "<group>"; };
+		7AE4224A2C4586C400170C1A /* LabelledPickerSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelledPickerSwiftUI.swift; sourceTree = "<group>"; };
+		7AE4224F2C45871A00170C1A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7AE422512C45874A00170C1A /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		7AE422542C45878000170C1A /* PhotoPickerViewFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerViewFile.swift; sourceTree = "<group>"; };
+		7AE422572C4587D000170C1A /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		7AE422592C4587FE00170C1A /* PickerDataFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerDataFile.swift; sourceTree = "<group>"; };
+		7AE4225C2C458D1000170C1A /* Profile_Picker_pageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile_Picker_pageApp.swift; sourceTree = "<group>"; };
+		7AE422602C458F4300170C1A /* GameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameApp.swift; sourceTree = "<group>"; };
+		7AE422632C458F9E00170C1A /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		7AE422652C458FC400170C1A /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		7AE422672C458FE700170C1A /* TriviaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaView.swift; sourceTree = "<group>"; };
+		7AE4226A2C45905800170C1A /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		7AE4226C2C45909100170C1A /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		7AE4226E2C4590B600170C1A /* AnswerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerRow.swift; sourceTree = "<group>"; };
+		7AE422712C4590F700170C1A /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
+		7AE422732C45910B00170C1A /* Trivia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trivia.swift; sourceTree = "<group>"; };
+		7AE422752C45918900170C1A /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		7AE422772C4591AE00170C1A /* TriviaManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaManager.swift; sourceTree = "<group>"; };
+		7AE4227D2C48289200170C1A /* SearchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchApp.swift; sourceTree = "<group>"; };
+		7AE4227F2C4828AA00170C1A /* MajorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorView.swift; sourceTree = "<group>"; };
+		7AE422812C4828BB00170C1A /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		7AE422842C48B32600170C1A /* tracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tracker.swift; sourceTree = "<group>"; };
+		7AE422882C48B3AD00170C1A /* app.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = app.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AE422332C45851900170C1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AE422982C49285600170C1A /* FirebaseFirestore in Frameworks */,
+				7AE4229A2C49285600170C1A /* FirebaseFirestoreSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7AE4222D2C45851900170C1A = {
+			isa = PBXGroup;
+			children = (
+				7AE422382C45851900170C1A /* Educare - Ifra & Waniya */,
+				7AE422372C45851900170C1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7AE422372C45851900170C1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AE422362C45851900170C1A /* Educare - Ifra & Waniya.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AE422382C45851900170C1A /* Educare - Ifra & Waniya */ = {
+			isa = PBXGroup;
+			children = (
+				7AE422472C45863B00170C1A /* View */,
+				7AE4225F2C458F0300170C1A /* Game */,
+				7AE4227C2C48286B00170C1A /* Search */,
+				7AE422832C48B2B100170C1A /* tracker */,
+				7AE4223D2C45852500170C1A /* Assets.xcassets */,
+			);
+			path = "Educare - Ifra & Waniya";
+			sourceTree = "<group>";
+		};
+		7AE422472C45863B00170C1A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7AE422482C45868300170C1A /* UniversalPickerFile.swift */,
+				7AE4224A2C4586C400170C1A /* LabelledPickerSwiftUI.swift */,
+				7AE422532C45876700170C1A /* Utils */,
+				7AE4224C2C4586CE00170C1A /* Model */,
+				7AE4227B2C46C7DF00170C1A /* Downloads */,
+				7AE422562C4587A200170C1A /* ViewModel */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7AE4224C2C4586CE00170C1A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7AE422592C4587FE00170C1A /* PickerDataFile.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7AE422532C45876700170C1A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7AE422512C45874A00170C1A /* TabView.swift */,
+				7AE422542C45878000170C1A /* PhotoPickerViewFile.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		7AE422562C4587A200170C1A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7AE4225C2C458D1000170C1A /* Profile_Picker_pageApp.swift */,
+				7AE4224F2C45871A00170C1A /* ContentView.swift */,
+				7AE422572C4587D000170C1A /* PickerView.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7AE4225F2C458F0300170C1A /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				7AE422602C458F4300170C1A /* GameApp.swift */,
+				7AE422622C458F6D00170C1A /* Views */,
+				7AE422692C45902600170C1A /* Components */,
+				7AE422702C4590CF00170C1A /* Models */,
+				7AE422752C45918900170C1A /* Extension.swift */,
+				7AE422772C4591AE00170C1A /* TriviaManager.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		7AE422622C458F6D00170C1A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7AE422632C458F9E00170C1A /* MainView.swift */,
+				7AE422652C458FC400170C1A /* QuestionView.swift */,
+				7AE422672C458FE700170C1A /* TriviaView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7AE422692C45902600170C1A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				7AE4226C2C45909100170C1A /* ProgressBar.swift */,
+				7AE4226A2C45905800170C1A /* PrimaryButton.swift */,
+				7AE4226E2C4590B600170C1A /* AnswerRow.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		7AE422702C4590CF00170C1A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7AE422712C4590F700170C1A /* Answer.swift */,
+				7AE422732C45910B00170C1A /* Trivia.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7AE4227B2C46C7DF00170C1A /* Downloads */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Downloads;
+			sourceTree = "<group>";
+		};
+		7AE4227C2C48286B00170C1A /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				7AE4227D2C48289200170C1A /* SearchApp.swift */,
+				7AE4227F2C4828AA00170C1A /* MajorView.swift */,
+				7AE422812C4828BB00170C1A /* SampleData.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		7AE422832C48B2B100170C1A /* tracker */ = {
+			isa = PBXGroup;
+			children = (
+				7AE422882C48B3AD00170C1A /* app.swift */,
+				7AE422842C48B32600170C1A /* tracker.swift */,
+			);
+			path = tracker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7AE422352C45851900170C1A /* Educare - Ifra & Waniya */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AE422442C45852500170C1A /* Build configuration list for PBXNativeTarget "Educare - Ifra & Waniya" */;
+			buildPhases = (
+				7AE422322C45851900170C1A /* Sources */,
+				7AE422332C45851900170C1A /* Frameworks */,
+				7AE422342C45851900170C1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Educare - Ifra & Waniya";
+			packageProductDependencies = (
+				7AE422972C49285600170C1A /* FirebaseFirestore */,
+				7AE422992C49285600170C1A /* FirebaseFirestoreSwift */,
+			);
+			productName = "Educare - Ifra & Waniya";
+			productReference = 7AE422362C45851900170C1A /* Educare - Ifra & Waniya.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7AE4222E2C45851900170C1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					7AE422352C45851900170C1A = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 7AE422312C45851900170C1A /* Build configuration list for PBXProject "Educare " */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7AE4222D2C45851900170C1A;
+			packageReferences = (
+				7AE422962C49285600170C1A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 7AE422372C45851900170C1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7AE422352C45851900170C1A /* Educare - Ifra & Waniya */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7AE422342C45851900170C1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AE4223E2C45852500170C1A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7AE422322C45851900170C1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AE422522C45874A00170C1A /* TabView.swift in Sources */,
+				7AE422682C458FE700170C1A /* TriviaView.swift in Sources */,
+				7AE422852C48B32600170C1A /* tracker.swift in Sources */,
+				7AE422782C4591AE00170C1A /* TriviaManager.swift in Sources */,
+				7AE422552C45878000170C1A /* PhotoPickerViewFile.swift in Sources */,
+				7AE422892C48B3AD00170C1A /* app.swift in Sources */,
+				7AE422612C458F4300170C1A /* GameApp.swift in Sources */,
+				7AE422642C458F9E00170C1A /* MainView.swift in Sources */,
+				7AE4226B2C45905800170C1A /* PrimaryButton.swift in Sources */,
+				7AE4226D2C45909100170C1A /* ProgressBar.swift in Sources */,
+				7AE422722C4590F700170C1A /* Answer.swift in Sources */,
+				7AE422742C45910B00170C1A /* Trivia.swift in Sources */,
+				7AE422802C4828AA00170C1A /* MajorView.swift in Sources */,
+				7AE422762C45918900170C1A /* Extension.swift in Sources */,
+				7AE4224B2C4586C400170C1A /* LabelledPickerSwiftUI.swift in Sources */,
+				7AE422502C45871A00170C1A /* ContentView.swift in Sources */,
+				7AE4227E2C48289200170C1A /* SearchApp.swift in Sources */,
+				7AE422582C4587D000170C1A /* PickerView.swift in Sources */,
+				7AE422662C458FC400170C1A /* QuestionView.swift in Sources */,
+				7AE4225D2C458D1000170C1A /* Profile_Picker_pageApp.swift in Sources */,
+				7AE422492C45868300170C1A /* UniversalPickerFile.swift in Sources */,
+				7AE422822C4828BB00170C1A /* SampleData.swift in Sources */,
+				7AE4226F2C4590B600170C1A /* AnswerRow.swift in Sources */,
+				7AE4225A2C4587FE00170C1A /* PickerDataFile.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7AE422422C45852500170C1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7AE422432C45852500170C1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7AE422452C45852500170C1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Educare - Ifra & Waniya\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Tab.Educare---Ifra---Waniya";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7AE422462C45852500170C1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Educare - Ifra & Waniya\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Tab.Educare---Ifra---Waniya";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7AE422312C45851900170C1A /* Build configuration list for PBXProject "Educare " */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AE422422C45852500170C1A /* Debug */,
+				7AE422432C45852500170C1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AE422442C45852500170C1A /* Build configuration list for PBXNativeTarget "Educare - Ifra & Waniya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AE422452C45852500170C1A /* Debug */,
+				7AE422462C45852500170C1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7AE422962C49285600170C1A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.29.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7AE422972C49285600170C1A /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7AE422962C49285600170C1A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		7AE422992C49285600170C1A /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7AE422962C49285600170C1A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7AE4222E2C45851900170C1A /* Project object */;
+}
